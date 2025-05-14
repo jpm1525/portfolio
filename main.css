@@ -1,0 +1,269 @@
+body{
+    font-family: "Poppins";
+    background-color: #ECE5D8;
+    height: 100vh;
+}
+
+.profile-col{
+    background-color: #321515;
+}
+
+.fontclr-soft-ivory{
+    color:#ECE5D8;
+}
+
+.fontclr-dark-cocoa{
+    color:#321515;
+}
+
+.fontclr-disabled{
+    color:#7A6561;
+}
+
+.bckclr-soft-ivory{
+    background-color:#ECE5D8;
+}
+
+.bckclr-dark-cocoa{
+    background-color:#321515;
+}
+
+.bckclr-light-cocoa{
+    background-color:#462C2C;
+}
+
+.bckclr-ivory-gray{
+    background-color:#C7BBB1;
+}
+
+.bckclr-ivory-shade{
+    background-color:#E5DCD0;
+}
+
+.bckclr-disabled{
+    background-color:#7A6561;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.horizontal-text-line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+  
+    .horizontal-text-line::before,
+    .horizontal-text-line::after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #ECE5D8;
+    }
+    
+    .horizontal-text-line:not(:empty)::before {
+        margin-right: 0.75em;
+    }
+    
+    .horizontal-text-line:not(:empty)::after {
+        margin-left: 0.75em;
+    }
+
+.profile-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #321b17;
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+.tech-icons{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .tech-icons img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+.button-links img{
+    width: 25px;
+}
+
+.btn-dark {
+    background-color: #321b17;
+    border: none;
+}
+
+.tech-stack td, .tech-stack th {
+    vertical-align: middle;
+}
+
+.scrollable {
+    height: calc(100vh - 110px) !important; 
+    overflow-y: auto !important;
+  }
+
+.tech-stack-icons{
+    border: none;
+    text-decoration: none;
+}
+    .tech-stack-icons div{
+        display: inline-block;
+    }
+
+    .tech-stack-icons div img {
+        width: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .tech-stack-icons div p {
+        display: inline-block;
+        color:#7A6561;
+        font-weight: 500;
+    }
+
+.tech-stack-row{
+    width: 95%;
+}
+
+.about-form{
+    border-color: #321b17;
+}
+
+#projects{
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#profile-img {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 10% 10%;
+}
+
+#web-developer{
+    border-radius: 15% 15%;
+}
+
+#paragraph-2{
+    width: 95%;
+}
